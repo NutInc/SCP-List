@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCP-List", "SCP-List\SCP-List.csproj", "{1DBFBB0E-88E6-492F-8246-24EF1CA3828B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DBFBB0E-88E6-492F-8246-24EF1CA3828B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DBFBB0E-88E6-492F-8246-24EF1CA3828B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DBFBB0E-88E6-492F-8246-24EF1CA3828B}.Debug|x86.ActiveCfg = Debug|x86
+		{1DBFBB0E-88E6-492F-8246-24EF1CA3828B}.Debug|x86.Build.0 = Debug|x86
+		{1DBFBB0E-88E6-492F-8246-24EF1CA3828B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DBFBB0E-88E6-492F-8246-24EF1CA3828B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DBFBB0E-88E6-492F-8246-24EF1CA3828B}.Release|x86.ActiveCfg = Release|x86
+		{1DBFBB0E-88E6-492F-8246-24EF1CA3828B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF302E6B-94C9-4E36-88D9-FF78753777A6}
+	EndGlobalSection
+EndGlobal
