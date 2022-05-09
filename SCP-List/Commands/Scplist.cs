@@ -35,7 +35,7 @@
 
             foreach (var ply in Player.List)
             {
-                if (ply.Team == Team.SCP)
+                if (ply.Role.Team == Team.SCP)
                 {
                     if (ply.SessionVariables.ContainsKey("IsNPC")) continue;
                     scpList.Add($"<color=green>{ply.Nickname}</color> - <color=white>({ply.Role})</color>");
@@ -46,7 +46,7 @@
                 }
             }
             
-            if (_player.Team == Team.SCP || scpList.Contains($"<color=green>{_player.Nickname}</color> - <color=white>({_player.Role})[<color=red>Scp035</color>]</color>"))
+            if (_player.Role.Team == Team.SCP || scpList.Contains($"<color=green>{_player.Nickname}</color> - <color=white>({_player.Role})[<color=red>Scp035</color>]</color>"))
             {
                 var scpListCombined = string.Join(",\n", scpList.ToArray());
                 if (scpList.Count == 0)
